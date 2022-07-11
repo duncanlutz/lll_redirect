@@ -1,5 +1,9 @@
+import { useEffect } from 'react';
+
 function App() {
-  window.location = 'https://bestattorneys.com/?lang=es';
+  useEffect(() => {
+    window.location = 'https://bestattorneys.com/?lang=es';
+  }, []);
   return <></>;
 }
 
